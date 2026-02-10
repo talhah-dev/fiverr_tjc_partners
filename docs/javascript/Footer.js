@@ -12,14 +12,14 @@ footer.innerHTML = `
   <div class="relative max-w-7xl mx-auto px-6 lg:px-10">
     <div class="pt-14 pb-14 border-y border-black/10">
       <div class="max-w-3xl mx-auto text-center">
-        <h3 class="text-4xl sm:text-5xl lg:text-6xl font-semibold tracking-tight leading-[1.05]">
+        <h3 data-aos="fade-up" class="text-4xl sm:text-5xl lg:text-6xl font-semibold tracking-tight leading-[1.05]">
           Reach out to <span class="italic font-medium">TJC Partners</span>.
         </h3>
-        <p class="mt-4 text-base sm:text-lg text-[#4d5560]">
+        <p data-aos="fade-up" class="mt-4 text-base sm:text-lg text-[#4d5560]">
           Executive search and transaction support—handled with speed, discretion, and a structured process.
         </p>
 
-        <div class="mt-8 flex justify-center">
+        <div data-aos="fade-up" class="mt-8 flex justify-center">
           <a href="#contact" class="inline-flex items-center justify-center gap-3 rounded-xl px-10 py-4 text-base font-semibold text-white bg-gradient-to-r from-[#00379d] to-[#ff7264] shadow-[0_18px_60px_rgba(0,0,0,0.14)] hover:opacity-95 transition">
             Get in touch <i class="fa-solid fa-arrow-right"></i>
           </a>
@@ -27,7 +27,7 @@ footer.innerHTML = `
       </div>
     </div>
 
-    <div class="py-14">
+    <div data-aos="fade" class="py-14">
       <div class="grid lg:grid-cols-12 gap-10 items-start">
         <div class="lg:col-span-3">
           <a href="./index.html" class="inline-flex items-center gap-3">
