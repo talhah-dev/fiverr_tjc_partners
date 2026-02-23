@@ -64,11 +64,11 @@ footer.innerHTML = `
             <a href="./legal.html" class="text-[#192532] hover:text-[#00134d] transition">Cookie Policy.</a>
             <a href="./legal.html" class="text-[#192532] hover:text-[#00134d] transition">Impressum.</a>
             <button type="button" id="cookieSettingsBtn" class="text-left text-[#192532] hover:text-[#00134d] transition">Cookie settings.</button>
-            <a href="#" class="text-[#192532] hover:text-[#00134d] transition">LinkedIn.</a>
+            <a href="https://www.linkedin.com/company/tj-consulting-partners/" class="text-[#192532] hover:text-[#00134d] transition">LinkedIn.</a>
           </div>
 
           <div class="mt-8 flex items-center gap-3">
-            <a href="#" class="h-11 w-11 rounded-2xl border border-black/10 bg-white/70 backdrop-blur-xl flex items-center justify-center hover:bg-white transition">
+            <a href="https://www.linkedin.com/company/tj-consulting-partners/" class="h-11 w-11 rounded-2xl border border-black/10 bg-white/70 backdrop-blur-xl flex items-center justify-center hover:bg-white transition">
               <i class="fa-brands fa-linkedin-in text-[#192532]"></i>
             </a>
             <a href="#" class="h-11 w-11 rounded-2xl border border-black/10 bg-white/70 backdrop-blur-xl flex items-center justify-center hover:bg-white transition">
