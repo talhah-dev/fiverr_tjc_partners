@@ -38,8 +38,8 @@ footer.innerHTML = `
         <div class="lg:col-span-3">
           <div class="text-sm font-semibold">Contact</div>
           <div class="mt-5 grid gap-5 text-base text-[#192532]">
-            <a href="mailto:contact@tjc-partners.com" class="hover:text-[#00134d] transition">contact@tjc-partners.com</a>
-            <a href="tel:+4930509305100" class="hover:text-[#00134d] transition">+49 30 509305 100</a>
+            <a href="mailto:office@tjc-partners.com" class="hover:text-[#00134d] transition">office@tjc-partners.com</a>
+            <a href="tel:+49017623877522" class="hover:text-[#00134d] transition">+49 (0) 176 238 775 22</a>
             <div class="text-[#4d5560] leading-relaxed">
               Berlin • Germany
             </div>
@@ -70,12 +70,6 @@ footer.innerHTML = `
           <div class="mt-8 flex items-center gap-3">
             <a href="https://www.linkedin.com/company/tj-consulting-partners/" class="h-11 w-11 rounded-2xl border border-black/10 bg-white/70 backdrop-blur-xl flex items-center justify-center hover:bg-white transition">
               <i class="fa-brands fa-linkedin-in text-[#192532]"></i>
-            </a>
-            <a href="#" class="h-11 w-11 rounded-2xl border border-black/10 bg-white/70 backdrop-blur-xl flex items-center justify-center hover:bg-white transition">
-              <i class="fa-brands fa-x-twitter text-[#192532]"></i>
-            </a>
-            <a href="mailto:contact@tjc-partners.com" class="h-11 w-11 rounded-2xl border border-black/10 bg-white/70 backdrop-blur-xl flex items-center justify-center hover:bg-white transition">
-              <i class="fa-solid fa-envelope text-[#192532]"></i>
             </a>
           </div>
         </div>
