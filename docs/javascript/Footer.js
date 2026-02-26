@@ -10,23 +10,6 @@ footer.innerHTML = `
   </div>
 
   <div class="relative max-w-7xl mx-auto px-6 lg:px-10">
-    <div class="pt-14 pb-14 border-y border-black/10">
-      <div class="max-w-3xl mx-auto text-center">
-        <h3 data-aos="fade-up" class="text-4xl sm:text-5xl lg:text-6xl font-semibold tracking-tight leading-[1.05]">
-          Reach out to <span class="italic font-medium">TJC Partners</span>.
-        </h3>
-        <p data-aos="fade-up" class="mt-4 text-base sm:text-lg text-[#4d5560]">
-          Executive search and transaction support—handled with speed, discretion, and a structured process.
-        </p>
-
-        <div data-aos="fade-up" class="mt-8 flex justify-center">
-          <a href="#contact" class="inline-flex items-center justify-center gap-3 rounded-xl px-10 py-4 text-base font-semibold text-white bg-gradient-to-r from-[#00379d] to-[#ff7264] shadow-[0_18px_60px_rgba(0,0,0,0.14)] hover:opacity-95 transition">
-            Get in touch <i class="fa-solid fa-arrow-right"></i>
-          </a>
-        </div>
-      </div>
-    </div>
-
     <div data-aos="fade" class="py-14">
       <div class="grid lg:grid-cols-12 gap-10 items-start">
         <div class="lg:col-span-3">
@@ -41,7 +24,7 @@ footer.innerHTML = `
             <a href="mailto:office@tjc-partners.com" class="hover:text-[#00134d] transition">office@tjc-partners.com</a>
             <a href="tel:+49017623877522" class="hover:text-[#00134d] transition">+49 (0) 176 238 775 22</a>
             <div class="text-[#4d5560] leading-relaxed">
-              Berlin • Germany
+              Am Schanzengraben 27, 8002 Zurich, Schweiz
             </div>
           </div>
         </div>
@@ -77,7 +60,7 @@ footer.innerHTML = `
 
       <div class="mt-14 pt-8 border-t border-black/10 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
         <div class="text-sm text-[#4d5560]">
-          © <span id="yearNow"></span> TJC Partners. All rights reserved.
+          © <span id="yearNow"></span> TJC Partners AG. All rights reserved.
         </div>
 
         <div class="flex flex-wrap items-center gap-x-6 gap-y-2 text-sm text-[#4d5560]">
@@ -92,4 +75,4 @@ footer.innerHTML = `
 `;
 
 const yearNow = document.getElementById("yearNow");
-if (yearNow) yearNow.textContent = new Date().getFullYear();
+if (yearNow) yearNow.textContent = new Date().get
